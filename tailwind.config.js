@@ -7,20 +7,20 @@ const config = {
   theme: {
     extend: {
       colors: {
-        primary: "#0D1B47",
-        accent: "#FF6B35",
-        secondary: "#06B6D4",
-        success: "#10B981",
-        warning: "#F59E0B",
-        danger: "#EF4444",
+        primary: "#1A237E", // Bleu Savant
+        accent: "#E67E22", // Ocre Terre
+        secondary: "#27AE60", // Vert Émeraude
+        success: "#27AE60",
+        warning: "#F39C12",
+        danger: "#E74C3C",
         neutral: {
-          50: "#F9FAFB",
-          100: "#F3F4F6",
+          50: "#F4F4F4", // Blanc Cassé
+          100: "#F5F7FA",
           200: "#E5E7EB",
           300: "#D1D5DB",
           400: "#9CA3AF",
-          500: "#6B7280",
-          600: "#4B5563",
+          500: "#34495E",
+          600: "#2C3E50",
           700: "#374151",
           800: "#1F2937",
           900: "#111827",

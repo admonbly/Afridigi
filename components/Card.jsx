@@ -10,9 +10,9 @@ export default function Card({
   ...props
 }) {
   const variants = {
-    default: 'bg-white border border-neutral-200 hover:shadow-lg hover:border-accent',
-    accent: 'bg-accent/10 border border-accent/20 hover:border-accent',
-    secondary: 'bg-secondary/10 border border-secondary/20 hover:border-secondary',
+    default: 'bg-white border border-[var(--color-border)] hover:shadow-lg hover:border-[var(--color-ocre-terre)]',
+    accent: 'bg-[var(--color-ocre-terre)]/10 border border-[var(--color-ocre-terre)]/20 hover:border-[var(--color-ocre-terre)]',
+    secondary: 'bg-[var(--color-emerald-green)]/10 border border-[var(--color-emerald-green)]/20 hover:border-[var(--color-emerald-green)]',
   };
 
   return (

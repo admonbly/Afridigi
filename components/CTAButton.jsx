@@ -12,10 +12,10 @@ export default function CTAButton({
   const baseStyles = 'font-semibold rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2 font-heading';
 
   const variants = {
-    primary: 'bg-gradient-to-r from-accent to-orange-500 text-white hover:shadow-lg hover:shadow-orange-500/50',
-    secondary: 'bg-secondary text-white hover:bg-cyan-600 hover:shadow-lg',
-    outline: 'border-2 border-accent text-accent hover:bg-accent hover:text-white',
-    ghost: 'text-accent hover:bg-accent/10',
+    primary: 'bg-gradient-to-r from-[var(--color-blue-savant)] to-[var(--color-ocre-terre)] text-white hover:shadow-lg hover:shadow-[0_5px_20px_rgba(230,126,34,0.35)]',
+    secondary: 'bg-[var(--color-emerald-green)] text-white hover:bg-[var(--color-warning)] hover:shadow-lg',
+    outline: 'border-2 border-[var(--color-ocre-terre)] text-[var(--color-ocre-terre)] hover:bg-[var(--color-ocre-terre)] hover:text-white',
+    ghost: 'text-[var(--color-ocre-terre)] hover:bg-[var(--color-ocre-terre)]/10',
   };
 
   const sizes = {

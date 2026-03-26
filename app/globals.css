@@ -2,6 +2,22 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+:root {
+  --color-blue-savant: #1A237E;
+  --color-ocre-terre: #E67E22;
+  --color-emerald-green: #27AE60;
+  --color-cream-white: #F4F4F4;
+  --color-gradient-start: #667eea;
+  --color-gradient-end: #764ba2;
+  --color-success: #27AE60;
+  --color-warning: #F39C12;
+  --color-danger: #E74C3C;
+  --color-light: #F5F7FA;
+  --color-dark: #2C3E50;
+  --color-text: #34495E;
+  --color-border: #DDD;
+}
+
 @layer base {
   body {
     @apply bg-neutral-50 text-neutral-900;
