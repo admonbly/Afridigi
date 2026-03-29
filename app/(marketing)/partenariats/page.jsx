@@ -107,7 +107,7 @@ export default function PartnershipsPage() {
                 Partenariat Institutionnel
               </h3>
               <p className="text-neutral-600 mb-4">
-                Intégrez AFRIDIGI dans votre programme de formation. Offrez à vos étudiants une
+                Intégrez Syllabix dans votre programme de formation. Offrez à vos étudiants une
                 certification reconnue.
               </p>
               <CTAButton href="#contact" variant="primary" size="md">
@@ -133,7 +133,7 @@ export default function PartnershipsPage() {
                 Partenariat de Distribution
               </h3>
               <p className="text-neutral-600 mb-4">
-                Devenez partenaire de distribution et générez des revenus. Offrez AFRIDIGI à
+                Devenez partenaire de distribution et générez des revenus. Offrez Syllabix à
                 vos clients et partenaires.
               </p>
               <CTAButton href="#contact" variant="primary" size="md">

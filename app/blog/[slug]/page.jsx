@@ -6,136 +6,239 @@ import CTAButton from '@/components/CTAButton';
 import Link from 'next/link';
 
 const articles = {
-  'ia-chat-gpt-2024': {
-    title: 'ChatGPT et l\'IA en 2024: Guide complet',
+  'ia-chat-gpt-2026': {
+    title: 'IA générative et agents IA en 2026: L\'avenir du travail',
     category: 'IA',
-    date: '15 mars 2024',
+    date: '22 mars 2026',
     image: '🤖',
     content: `
-    <h2>Introduction à ChatGPT</h2>
-    <p>ChatGPT est un modèle d'intelligence artificielle créé par OpenAI. Il s'agit d'un assistant IA capable de comprendre et de répondre à des questions en langage naturel.</p>
+    <h2>Les agents IA autonomes en 2026</h2>
+    <p>En 2026, les agents IA autonomes révolutionnent les espaces de travail. Ces systèmes peuvent non seulement répondre aux questions, mais aussi exécuter des tâches complexes de manière indépendante.</p>
 
-    <h2>Comment ça marche?</h2>
-    <p>ChatGPT utilise une technologie appelée <strong>transformers</strong> pour comprendre le contexte et générer des réponses pertinentes. Le modèle a été entraîné sur des milliards de mots provenant d'internet.</p>
+    <h2>Comment fonctionnent les systèmes IA modernes?</h2>
+    <p>Les nouveaux systèmes utilisent des modèles de langage multimodaux qui comprennent le texte, les images et même les vidéos. Ils sont capables d'apprendre des préférences utilisateur et d'adapter leurs réponses en temps réel.</p>
 
-    <h2>Use cases pratiques</h2>
+    <h2>Applications professionnelles 2026</h2>
     <ul>
-      <li><strong>Rédaction:</strong> Écrire des emails, articles, ou contenu créatif</li>
-      <li><strong>Code:</strong> Générer ou déboguer du code</li>
-      <li><strong>Apprentissage:</strong> Expliquer des concepts complexes</li>
-      <li><strong>Brainstorming:</strong> Générer des idées et des solutions</li>
+      <li><strong>Automatisation:</strong> Gérer les tâches répétitives et les processus métier</li>
+      <li><strong>Analyse de données:</strong> Interpréter des volumes massifs de données</li>
+      <li><strong>Service client:</strong> Support 24/7 multilingue et contextuel</li>
+      <li><strong>Collaboration:</strong> Assistants intelligents pour les équipes</li>
     </ul>
 
-    <h2>Limitations à connaître</h2>
-    <p>ChatGPT n'est pas parfait. Il peut:</p>
+    <h2>Enjeux éthiques et de conformité</h2>
+    <p>En 2026, les organisations doivent naviguer des questions importantes:</p>
     <ul>
-      <li>Générer des informations incorrectes ("hallucinations")</li>
-      <li>Avoir du mal avec les tâches de mathématiques complexes</li>
-      <li>Ne pas connaître les événements de très récent (après son entraînement)</li>
+      <li>Transparence et explainabilité des décisions IA</li>
+      <li>Protection des données et privacy</li>
+      <li>Biais algorithmiques et équité</li>
+      <li>Impact sur l'emploi et les compétences requises</li>
     </ul>
 
-    <h2>Conseils pratiques</h2>
-    <p>Pour obtenir les meilleures réponses de ChatGPT:</p>
+    <h2>Compétences IA requises en 2026</h2>
+    <p>Les professionnels doivent acquérir:</p>
     <ul>
-      <li>Soyez spécifique dans vos questions</li>
-      <li>Fournissez du contexte</li>
-      <li>Demandez des clarifications si nécessaire</li>
-      <li>Vérifiez toujours les informations critiques</li>
+      <li>Littératie IA basique pour tous les rôles</li>
+      <li>Capacité à collaborer efficacement avec les systèmes IA</li>
+      <li>Compréhension des implications éthiques</li>
+      <li>Adaptabilité face aux changements technologiques rapides</li>
     </ul>
 
-    <h2>Conclusion</h2>
-    <p>ChatGPT et les assistants IA sont des outils puissants qui changeront la manière dont nous travaillons. L'important est de les utiliser de manière responsable et éthique.</p>
+    <h2>L'avenir du travail hybride</h2>
+    <p>Le modèle 2026 combine l'intelligence humaine et artificielle pour créer une productivité optimale. Les professionnels qui maîtrisent ces outils sont en haute demande.</p>
     `,
   },
-  'securite-mots-passe': {
-    title: 'Comment créer des mots de passe sécurisés',
+  'securite-biometrique-2026': {
+    title: 'Sécurité biométrique et authentification multi-niveaux',
     category: 'Cybersécurité',
-    date: '10 mars 2024',
+    date: '18 mars 2026',
     image: '🔒',
     content: `
-    <h2>Pourquoi les mots de passe forts sont importants</h2>
-    <p>Un mot de passe faible peut être cracké en secondes. Les hackers utilisent des techniques automatisées pour deviner les mots de passe.</p>
+    <h2>La fin des mots de passe traditionnels?</h2>
+    <p>En 2026, l'authentification biométrique est devenue la norme pour les organisations modernes. La combinaison reconnaissance faciale, empreinte digitale et reconnaissance vocale offre une sécurité inégalée.</p>
 
-    <h2>Caractéristiques d'un mot de passe fort</h2>
+    <h2>Niveaux d'authentification en 2026</h2>
     <ul>
-      <li><strong>Longueur:</strong> Minimum 12 caractères (plus c'est long, mieux c'est)</li>
-      <li><strong>Complexité:</strong> Mélange de majuscules, minuscules, chiffres et symboles</li>
-      <li><strong>Unique:</strong> Un mot de passe différent pour chaque compte important</li>
-      <li><strong>Imprévisible:</strong> Pas de noms, dates d'anniversaire ou motifs obvoles</li>
+      <li><strong>Niveau 1:</strong> Biométrie unique (empreinte ou visage)</li>
+      <li><strong>Niveau 2:</strong> Biométrie + device ID</li>
+      <li><strong>Niveau 3:</strong> Multi-biométrie + contexte géographique</li>
+      <li><strong>Niveau 4:</strong> Authentification comportementale IA</li>
     </ul>
 
-    <h2>Exemples de mots de passe FAIBLES</h2>
-    <p>❌ 123456<br>❌ password<br>❌ admin<br>❌ qwerty<br>❌ Votre prénom</p>
+    <h2>Avantages de la sécurité biométrique</h2>
+    <p>✅ Impossible à oublier<br>✅ Impossible à partager<br>✅ Détection de fraude en temps réel<br>✅ Expérience utilisateur fluide</p>
 
-    <h2>Exemples de mots de passe FORTS</h2>
-    <p>✅ Tr0picJumper#Sunset92!<br>✅ BlueMoon$Dance27@Night<br>✅ @Phoenix88&Whisper*Flame</p>
-
-    <h2>Gestionnaires de mots de passe</h2>
-    <p>Utiliser un gestionnaire de mots de passe est la meilleure pratique:</p>
+    <h2>Conformité et réglementation</h2>
+    <p>Les organisations doivent respecter:</p>
     <ul>
-      <li>Bitwarden (gratuit et open-source)</li>
-      <li>1Password</li>
-      <li>LastPass</li>
-      <li>Dashlane</li>
+      <li>RGPD renforcé pour les données biométriques</li>
+      <li>Standards ISO 27001 et standards de sécurité biométrique</li>
+      <li>Consentement explicite des utilisateurs</li>
+      <li>Droit à l'oubli pour les données biométriques</li>
     </ul>
 
-    <h2>Authentification à deux facteurs (2FA)</h2>
-    <p>La 2FA ajoute une couche supplémentaire de sécurité. Même si quelqu'un a votre mot de passe, il ne peut pas accéder à votre compte sans le deuxième facteur (code SMS, app d'authentification).</p>
-
-    <h2>À ne jamais faire</h2>
+    <h2>Mise en œuvre pratique</h2>
+    <p>Pour adopter la sécurité biométrique:</p>
     <ul>
-      <li>Ne partage jamais votre mot de passe</li>
-      <li>N'utilisez pas le même mot de passe partout</li>
-      <li>Ne l'écrivez pas sur papier (sauf dans un endroit sécurisé)</li>
-      <li>Ne le rentrez jamais sur un ordinateur public</li>
+      <li>Évaluer les besoins de conformité</li>
+      <li>Choisir des solutions certifiées et vérifiées</li>
+      <li>Former les utilisateurs aux nouvelles méthodes</li>
+      <li>Maintenir des protocoles de recovery en cas d'urgence</li>
     </ul>
     `,
   },
-  'excel-pour-debutants': {
-    title: 'Excel pour débutants: Les bases',
-    category: 'Bureautique',
-    date: '5 mars 2024',
+  'power-bi-avance-2026': {
+    title: 'Power BI et analytics: Visualiser vos données en 2026',
+    category: 'Données',
+    date: '15 mars 2026',
     image: '📊',
     content: `
-    <h2>Qu'est-ce qu'Excel?</h2>
-    <p>Excel est un logiciel de feuille de calcul créé par Microsoft. Il permet de stocker, organiser et analyser des données.</p>
+    <h2>Power BI en 2026: Plus qu'un outil de reporting</h2>
+    <p>Power BI est devenu l'outil incontournable pour la business intelligence. Les organisations utilisent ses capacités avancées pour prendre des décisions data-driven en temps réel.</p>
 
-    <h2>L'interface d'Excel</h2>
+    <h2>Fonctionnalités clés 2026</h2>
     <ul>
-      <li><strong>Cellule:</strong> Intersection d'une colonne et d'une ligne</li>
-      <li><strong>Colonne:</strong> Lignes verticales (A, B, C...)</li>
-      <li><strong>Ligne:</strong> Lignes horizontales (1, 2, 3...)</li>
-      <li><strong>Feuille:</strong> Collection de cellules</li>
-      <li><strong>Classeur:</strong> Fichier Excel contenant des feuilles</li>
+      <li><strong>AI Insights:</strong> Découverte automatique de patterns</li>
+      <li><strong>Real-time Dashboards:</strong> Mise à jour instantanée des données</li>
+      <li><strong>Natural Language Query:</strong> Poser des questions en langage naturel</li>
+      <li><strong>Mobile Analytics:</strong> Accès complet en mobilité</li>
+      <li><strong>Collaboration Avancée:</strong> Partage sécurisé et commentaires intégrés</li>
     </ul>
 
-    <h2>Opérations de base</h2>
+    <h2>Cas d'usage professionels</h2>
     <ul>
-      <li><strong>Saisie de données:</strong> Cliquez sur une cellule et tapez</li>
-      <li><strong>Formules:</strong> Commencez par = (ex: =A1+B1)</li>
-      <li><strong>Formatage:</strong> Gras, italique, couleurs</li>
-      <li><strong>Tri:</strong> Organisez les données</li>
+      <li>Tableaux de bord KPI pour la direction</li>
+      <li>Analyse prédictive des tendances du marché</li>
+      <li>Optimisation de la supply chain</li>
+      <li>Segmentation client avancée</li>
     </ul>
 
-    <h2>Fonctions essentielles</h2>
+    <h2>Connexions de données 2026</h2>
+    <p>Power BI se connecte maintenant à:</p>
     <ul>
-      <li><strong>=SOMME():</strong> Addition de cellules</li>
-      <li><strong>=MOYENNE():</strong> Calcul de la moyenne</li>
-      <li><strong>=COMPTE():</strong> Compter les cellules</li>
-      <li><strong>=MAX():</strong> Valeur maximale</li>
-      <li><strong>=MIN():</strong> Valeur minimale</li>
+      <li>Azure Data Lake et Data Warehouse</li>
+      <li>APIs d'applications modernes</li>
+      <li>Systèmes IoT temps réel</li>
+      <li>Data streams et pipelines cloud</li>
     </ul>
 
-    <h2>Créer un graphique</h2>
-    <p>Sélectionnez vos données → Insérer → Graphique. Excel créera automatiquement un graphique!</p>
+    <h2>Compétences requises</h2>
+    <p>Les analystes doivent maîtriser: DAX (langage de formule), modélisation de données, visualisation effective, et les meilleures pratiques analytics.</p>
+    `,
+  },
+  'brand-digital-2026': {
+    title: 'Marque digitale et présence LinkedIn en 2026',
+    category: 'Employabilité',
+    date: '10 mars 2026',
+    image: '💼',
+    content: `
+    <h2>La marque personnelle en 2026</h2>
+    <p>En 2026, votre présence digitale est votre première impression professionnelle. Construire une marque personnelle cohérente et authentique ouvre des portes qui ne s'ouvriraient jamais autrement.</p>
 
-    <h2>Conseils pratiques</h2>
+    <h2>Éléments essentiels d'une marque digitale forte</h2>
     <ul>
-      <li>Utilisez les en-têtes pour identifier vos colonnes</li>
-      <li>Gardez vos données organisées</li>
-      <li>Utilisez le formatage conditionalnel pour mettre en évidence les données importantes</li>
-      <li>Explorez les tutoriels YouTube pour aller plus loin</li>
+      <li><strong>LinkedIn complet:</strong> Photo professionnelle, headline optimisée, résumé impactant</li>
+      <li><strong>Portfolio en ligne:</strong> Projets et accomplissements documentés</li>
+      <li><strong>Contenu régulier:</strong> Articles, insights et partages pertinents</li>
+      <li><strong>Réseau engagé:</strong> Connexions qualité plutôt que quantité</li>
     </ul>
+
+    <h2>Stratégie de contenu 2026</h2>
+    <ul>
+      <li>Partager vos apprentissages et expériences</li>
+      <li>Commenter et engager sur le contenu pertinent</li>
+      <li>Créer du contenu original sur vos domaines d'expertise</li>
+      <li>Utiliser les vidéos et formats visuels</li>
+    </ul>
+
+    <h2>Impact sur vos opportunités</h2>
+    <p>Les recruteurs en 2026:</p>
+    <ul>
+      <li>Recherchent les candidats high-potential sur LinkedIn</li>
+      <li>Évaluent votre position d'expert dans votre domaine</li>
+      <li>Considèrent votre engagement communautaire</li>
+      <li>Vérifient l'authenticité de votre profil</li>
+    </ul>
+
+    <h2>Pièges à éviter</h2>
+    <p>❌ Profil incomplet<br>❌ Inactivité prolongée<br>❌ Contenu non professionnel ou incohérent<br>❌ Ignorance des tendances de votre industrie</p>
+    `,
+  },
+  'ia-recherche-2026': {
+    title: 'Recherche intelligente avec les assistants IA',
+    category: 'Internet',
+    date: '5 mars 2026',
+    image: '🔍',
+    content: `
+    <h2>Au-delà de Google en 2026</h2>
+    <p>La recherche d'informations a radicalement changé. Les assistants IA synthétisent maintenant l'information plutôt que de simplement vous donner une liste de résultats.</p>
+
+    <h2>Nouveaux outils de recherche 2026</h2>
+    <ul>
+      <li><strong>Recherche conversationnelle:</strong> Dialogue continu avec l'IA</li>
+      <li><strong>Recherche contextuelle:</strong> Comprendre votre intention réelle</li>
+      <li><strong>Recherche multimodale:</strong> Images, texte, vidéo ensemble</li>
+      <li><strong>Recherche prédictive:</strong> Anticiper vos besoins</li>
+    </ul>
+
+    <h2>Intelligence de recherche</h2>
+    <p>L'IA peut maintenant:</p>
+    <ul>
+      <li>Synthétiser des informations de milliers de sources</li>
+      <li>Identifier les contradictions et les consensus</li>
+      <li>Évaluer la crédibilité des sources</li>
+      <li>Vous alerter sur les mises à jour importantes</li>
+    </ul>
+
+    <h2>Productivité améliorée</h2>
+    <p>Avec la recherche IA, vous pouvez:</p>
+    <ul>
+      <li>Réduire le temps de recherche de 70%</li>
+      <li>Obtenir des réponses plus précises et contextuelées</li>
+      <li>Découvrir des connexions que vous auriez manquées</li>
+      <li>Rester à jour sans surcharge informationnelle</li>
+    </ul>
+
+    <h2>Compétences en recherche 2026</h2>
+    <p>Les professionnels doivent apprendre à: formuler des questions précises, évaluer les résultats critiquement, et utiliser les outils avancés pour des recherches complexes.</p>
+    `,
+  },
+  'travail-hybrid-2026': {
+    title: 'Travail hybride: Outils et compétences indispensables',
+    category: 'Employabilité',
+    date: '28 février 2026',
+    image: '💻',
+    content: `
+    <h2>Le travail hybride: nouveau standard en 2026</h2>
+    <p>Le modèle hybride est maintenant dominant. Réussir en 2026 nécessite de maîtriser à la fois la technologie et les soft-skills pour travailler efficacement à distance et au bureau.</p>
+
+    <h2>Infrastructure technologique essentiellement</h2>
+    <ul>
+      <li><strong>Hardware:</strong> Ordinateur performant, écrans multiples, connexion fiable</li>
+      <li><strong>Logiciels collaboration:</strong> Teams, Slack, Zoom pour la communication</li>
+      <li><strong>Sécurité:</strong> VPN, authentification biométrique, gestion des secrets</li>
+      <li><strong>Productivité:</strong> Project Management, documentation partagée</li>
+    </ul>
+
+    <h2>Soft-skills critiales</h2>
+    <ul>
+      <li>Communication asynchrone claire et concise</li>
+      <li>Automanagement et discipline</li>
+      <li>Collaboration virtuelle efficace</li>
+      <li>Empathie et intelligence émotionnelle</li>
+    </ul>
+
+    <h2>Meilleur pratiques du télétravail</h2>
+    <ul>
+      <li>Établir une routine et des limites claires</li>
+      <li>Créer un espace de travail dédié</li>
+      <li>Maintenir la documentation à jour</li>
+      <li>Participer aux réunions avec caméra activée</li>
+      <li>Construire des relations authentiques avec les collègues</li>
+    </ul>
+
+    <h2>Impact sur la carrière</h2>
+    <p>Les équipes hybrides performantes offrent: flexibilité, accès à des talents mondiaux, meilleur équilibre travail-vie, et productivité accrue.</p>
     `,
   },
 };

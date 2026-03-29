@@ -34,7 +34,7 @@ export default function ContactPage() {
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          <Card icon="📧" title="Email" description="support@afridigi.io" />
+          <Card icon="📧" title="Email" description="support@syllabix.io" />
           <Card icon="💬" title="Chat" description="Réponse en moins d'1 heure" />
           <Card icon="🕐" title="Horaires" description="Lun-Ven: 9h-18h UTC" />
         </div>

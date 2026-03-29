@@ -13,8 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <span className="text-2xl">📱</span>
-              <span className="text-xl font-bold text-accent">AFRIDIGI</span>
+              <img src="/syllabix-logo-with-name.png" alt="Syllabix logo" className="h-12 w-auto" />
             </div>
             <p className="text-neutral-300 text-sm">
               Évaluer et certifier les compétences numériques en Afrique.
@@ -53,6 +52,16 @@ export default function Footer() {
             <h4 className="font-heading font-bold text-white mb-4">Ressources</h4>
             <ul className="space-y-2 text-sm text-neutral-300">
               <li>
+                <Link href="/about" className="hover:text-accent transition-colors">
+                  À propos
+                </Link>
+              </li>
+              <li>
+                <Link href="/blog" className="hover:text-accent transition-colors">
+                  Blog
+                </Link>
+              </li>
+              <li>
                 <Link href="/actualites" className="hover:text-accent transition-colors">
                   Actualités
                 </Link>
@@ -67,31 +76,10 @@ export default function Footer() {
                   Partenariats
                 </Link>
               </li>
-              <li>
-                <a href="#" className="hover:text-accent transition-colors">
-                  FAQ
-                </a>
-              </li>
             </ul>
           </div>
 
-          {/* Newsletter */}
-          <div>
-            <h4 className="font-heading font-bold text-white mb-4">Infolettre</h4>
-            <p className="text-sm text-neutral-300 mb-4">
-              Recevez les nouvelles actualités.
-            </p>
-            <div className="flex">
-              <input
-                type="email"
-                placeholder="Votre email"
-                className="flex-1 px-4 py-2 rounded-l-lg text-neutral-800 text-sm"
-              />
-              <button className="px-4 py-2 bg-accent text-white rounded-r-lg font-semibold hover:bg-orange-600 transition-colors">
-                S'abonner
-              </button>
-            </div>
-          </div>
+
         </div>
 
         {/* Divider */}
@@ -99,7 +87,7 @@ export default function Footer() {
 
         {/* Bottom Footer */}
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-neutral-400">
-          <p>&copy; {currentYear} AFRIDIGI. Tous droits réservés.</p>
+          <p>&copy; {currentYear} Syllabix. Tous droits réservés.</p>
           <div className="flex gap-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-neutral-300 transition-colors">
               Politique de confidentialité

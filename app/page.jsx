@@ -53,7 +53,7 @@ export default function HomePage() {
 
   const testimonials = [
     {
-      text: 'AFRIDIGI m\'a permis de certifier mes compétences numériques. Très utile pour ma recherche d\'emploi!',
+      text: 'Syllabix m\'a permis de certifier mes compétences numériques. Très utile pour ma recherche d\'emploi!',
       author: 'Amara Traoré',
       location: 'Dakar, Sénégal',
     },
@@ -74,7 +74,7 @@ export default function HomePage() {
       {/* Section 1: Hero */}
       <Hero
         title="Évaluez vos compétences numériques"
-        subtitle="AFRIDIGI est la plateforme de certification des compétences numériques en Afrique. Passez l'évaluation et obtenez un certificat reconnu."
+        subtitle="Syllabix est la plateforme de certification des compétences numériques en Afrique. Passez l'évaluation et obtenez un certificat reconnu."
         variant="default"
         cta={
           <>
@@ -98,7 +98,7 @@ export default function HomePage() {
       {/* Section 2: À Propos */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="section-title">Pourquoi AFRIDIGI?</h2>
+          <h2 className="section-title">Pourquoi Syllabix?</h2>
           <p className="section-subtitle">
             La plateforme leader pour évaluer et certifier les compétences numériques en Afrique
           </p>
@@ -166,7 +166,7 @@ export default function HomePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="section-title">Ce que disent nos utilisateurs</h2>
           <p className="section-subtitle">
-            Des milliers de professionnels font confiance à AFRIDIGI
+            Des milliers de professionnels font confiance à Syllabix
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -296,7 +296,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-heading font-bold mb-6">
-                Rejoignez la communauté AFRIDIGI
+                Rejoignez la communauté Syllabix
               </h2>
               <p className="text-lg text-white/80 mb-4">
                 Restez informé des nouvelles évaluations, ressources et actualités du monde numérique.
@@ -313,19 +313,8 @@ export default function HomePage() {
               </div>
             </div>
 
-            <div className="grid grid-cols-2 gap-6">
-              <Link href="/about" className="text-white/80 hover:text-accent transition-colors">
-                À propos
-              </Link>
-              <Link href="/contact" className="text-white/80 hover:text-accent transition-colors">
-                Contact
-              </Link>
-              <Link href="/partenariats" className="text-white/80 hover:text-accent transition-colors">
-                Partenariats
-              </Link>
-              <Link href="/blog" className="text-white/80 hover:text-accent transition-colors">
-                Blog
-              </Link>
+            <div>
+              {/* Les liens principaux sont maintenant dans le footer */}
             </div>
           </div>
         </div>

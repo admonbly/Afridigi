@@ -9,14 +9,14 @@ export default function CertificationPage() {
       <div className="max-w-5xl mx-auto px-4">
         <div className="text-center mb-16">
           <h1 className="text-5xl font-heading font-bold text-primary mb-4">
-            🎓 Certification AfridigiNet
+            🎓 Certification Syllabix
           </h1>
           <p className="text-xl text-neutral-600">
             Choisissez le type de formation qui vous convient
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
           {/* S'entrainer */}
           <Card className="p-8 hover:shadow-xl transition-shadow">
             <div className="text-5xl mb-4">📚</div>
@@ -89,6 +89,31 @@ export default function CertificationPage() {
               className="w-full"
             >
               Passer l'examen complet
+            </CTAButton>
+          </Card>
+
+          {/* Certificat par module */}
+          <Card className="p-8 hover:shadow-xl transition-shadow">
+            <div className="text-5xl mb-4">🎓</div>
+            <h2 className="text-2xl font-heading font-bold text-primary mb-3">
+              Certificat par module
+            </h2>
+            <p className="text-neutral-600 mb-6">
+              Obtenez un certificat officiel pour chaque module complété
+            </p>
+            <ul className="space-y-2 mb-8 text-sm text-neutral-700">
+              <li>⏱️ 10 minutes par module</li>
+              <li>✅ Questions mélangées</li>
+              <li>✅ Un module à la fois</li>
+              <li>✅ Certificat si ≥ 60%</li>
+            </ul>
+            <CTAButton
+              href="/certification/module-cert"
+              variant="accent"
+              size="lg"
+              className="w-full"
+            >
+              Choisir un module
             </CTAButton>
           </Card>
 

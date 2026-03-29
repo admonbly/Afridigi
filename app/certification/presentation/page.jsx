@@ -11,7 +11,7 @@ export default function PresentationPage() {
 
         <div className="prose prose-lg max-w-none text-neutral-700">
           <p className="text-xl leading-relaxed mb-8">
-            AFRIDIGI offre une certification reconnue des compétences numériques essentielles.
+            Syllabix offre une certification reconnue des compétences numériques essentielles.
             Notre plateforme évalue vos compétences à travers 7 modules couvrant tous les domaines
             critiques de l'informatique moderne.
           </p>

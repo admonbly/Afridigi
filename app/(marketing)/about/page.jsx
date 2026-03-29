@@ -7,12 +7,12 @@ export default function AboutPage() {
   return (
     <section className="py-20 bg-neutral-50 min-h-screen">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h1 className="section-title">À Propos d'AFRIDIGI</h1>
+        <h1 className="section-title">À Propos de Syllabix</h1>
 
         <div className="prose prose-lg max-w-none">
           <Card className="mb-8 p-8 bg-gradient-to-r from-accent/10 to-secondary/10">
             <p className="text-lg text-neutral-700 leading-relaxed">
-              AFRIDIGI est une plateforme innovante dédiée à l'évaluation et la certification des
+              Syllabix est une plateforme innovante dédiée à l'évaluation et la certification des
               compétences numériques en Afrique. Notre mission est de rendre accessible l'évaluation
               des compétences essentielles pour réussir dans le monde numérique.
             </p>
@@ -64,7 +64,7 @@ export default function AboutPage() {
             Notre Équipe
           </h2>
           <p className="text-neutral-700 leading-relaxed">
-            AFRIDIGI a été créée par une équipe d'experts en technologie, pédagogie et
+            Syllabix a été créée par une équipe d'experts en technologie, pédagogie et
             développement en Afrique. Nous travaillons avec les meilleures organisations pour
             assurer que notre plateforme répond aux besoins réels du marché africain.
           </p>
