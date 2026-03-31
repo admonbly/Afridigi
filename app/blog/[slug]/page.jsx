@@ -286,7 +286,7 @@ export default function ArticlePage({ params }) {
           <p className="text-lg text-neutral-700 mb-4">
             Prêt à tester vos compétences?
           </p>
-          <CTAButton href="/certification/s-entrainer" size="lg">
+          <CTAButton href="/training/mixed" size="lg">
             🏋️ Commencer à s'entraîner
           </CTAButton>
         </Card>

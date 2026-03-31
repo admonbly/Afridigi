@@ -23,13 +23,13 @@ export default function Header() {
           : 'bg-white border-b border-neutral-200'
       }`}
     >
-      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+      <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <img
             src="/syllabix-logo-with-name.png"
             alt="Syllabix Logo"
-            className="h-40 w-auto"
+            className="h-20 w-auto"
           />
         </Link>
 

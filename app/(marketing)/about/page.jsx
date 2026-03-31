@@ -76,7 +76,7 @@ export default function AboutPage() {
             <p className="text-white/90 mb-6">
               Rejoignez des milliers d'africains qui certifient leurs compétences numériques.
             </p>
-            <CTAButton href="/certification/demo" variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
+            <CTAButton href="/training/mixed" variant="outline" className="text-white border-white hover:bg-white hover:text-primary">
               Commencer l'évaluation gratuite
             </CTAButton>
           </div>

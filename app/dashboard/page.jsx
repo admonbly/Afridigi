@@ -153,7 +153,7 @@ export default function DashboardPage() {
 
         {/* CTA */}
         <div className="text-center">
-          <CTAButton href="/certification/s-entrainer" size="lg">
+          <CTAButton href="/training/mixed" size="lg">
             🏋️ Continuer l'entraînement
           </CTAButton>
         </div>

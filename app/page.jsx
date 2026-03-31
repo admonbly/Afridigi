@@ -77,21 +77,13 @@ export default function HomePage() {
         subtitle="Syllabix est la plateforme de certification des compétences numériques en Afrique. Passez l'évaluation et obtenez un certificat reconnu."
         variant="default"
         cta={
-          <>
-            <CTAButton
-              href="/certification/demo"
-              size="lg"
-            >
-              🎯 Commencer l'évaluation
-            </CTAButton>
-            <CTAButton
-              href="/certification/referentiel"
-              variant="outline"
-              size="lg"
-            >
-              📖 Voir le référentiel
-            </CTAButton>
-          </>
+          <CTAButton
+            href="/certification/presentation"
+            variant="outline"
+            size="lg"
+          >
+            📖 Presentation
+          </CTAButton>
         }
       />
 
@@ -135,7 +127,7 @@ export default function HomePage() {
             {modules.map((module) => (
               <Link
                 key={module.id}
-                href={`/certification/demo?module=${module.id}`}
+                href={`/training/module/${module.id}`}
                 className="group"
               >
                 <Card
@@ -154,7 +146,7 @@ export default function HomePage() {
           </div>
 
           <div className="mt-12 text-center">
-            <CTAButton href="/certification/s-entrainer" size="lg">
+            <CTAButton href="/training" size="lg">
               🏋️ S'entraîner maintenant
             </CTAButton>
           </div>
@@ -272,7 +264,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton
-              href="/certification/examen"
+              href="/certification"
               variant="secondary"
               size="lg"
             >

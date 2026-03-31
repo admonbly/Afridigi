@@ -25,17 +25,17 @@ export default function Footer() {
             <h4 className="font-heading font-bold text-white mb-4">Produits</h4>
             <ul className="space-y-2 text-sm text-neutral-300">
               <li>
-                <Link href="/certification/demo" className="hover:text-accent transition-colors">
+                <Link href="/training/mixed" className="hover:text-accent transition-colors">
                   S'entraîner
                 </Link>
               </li>
               <li>
-                <Link href="/certification/examen" className="hover:text-accent transition-colors">
+                <Link href="/exam/global" className="hover:text-accent transition-colors">
                   Passer la certification
                 </Link>
               </li>
               <li>
-                <Link href="/certification/referentiel" className="hover:text-accent transition-colors">
+                <Link href="/certification/presentation" className="hover:text-accent transition-colors">
                   Référentiel
                 </Link>
               </li>
