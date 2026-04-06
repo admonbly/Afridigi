@@ -147,7 +147,7 @@ export default function HomePage() {
 
           <div className="mt-12 text-center">
             <CTAButton href="/training" size="lg">
-              🏋️ S'entraîner maintenant
+              🏋️ S'entraîner
             </CTAButton>
           </div>
         </div>

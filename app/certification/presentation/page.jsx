@@ -143,7 +143,7 @@ export default function PresentationPage() {
 
             <div className="flex flex-col sm:flex-row gap-4 my-8">
               <CTAButton href="/training/mixed" size="lg">
-                🏋️ S'entraîner d'abord
+                🏋️ S'entraîner
               </CTAButton>
               <CTAButton href="/exam/global" variant="secondary" size="lg">
                 🎓 Passer l'examen
