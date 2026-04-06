@@ -1,0 +1,13 @@
+runtime: nodejs18
+
+env: standard
+
+entrypoint: npm start
+
+env_variables:
+  NEXT_PUBLIC_FIREBASE_API_KEY: "AIzaSyDfbKDfuOHhD1sXDm-nCllDshLu1Sf0HRw"
+  NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: "syllabix-e6f20.firebaseapp.com"
+  NEXT_PUBLIC_FIREBASE_PROJECT_ID: "syllabix-e6f20"
+  NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET: "syllabix-e6f20.firebasestorage.app"
+  NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID: "779665654341"
+  NEXT_PUBLIC_FIREBASE_APP_ID: "1:779665654341:web:6295875ac11404ff69d92c"
